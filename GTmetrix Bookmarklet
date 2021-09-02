@@ -1,0 +1,1 @@
+javascript:(function(d){var f=d.createElement('form');f.action='https://gtmetrix.com/analyze.html?bm';f.method='post';f.target='_blank';var i=d.createElement('input');i.type='hidden';i.name='url';i.value=document.location.href;f.appendChild(i);d.body.appendChild(f);f.submit();})(document);
