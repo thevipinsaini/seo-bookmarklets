@@ -1,0 +1,1 @@
+javascript:q = "" + (window.getSelection ? window.getSelection() : document.getSelection ? document.getSelection() : document.selection.createRange().text); if (!q) q = prompt("Search words", ""); if (q!=null) location="http://www.google.com/search?q=" + escape(q).replace(/ /g, "+"); void 0
